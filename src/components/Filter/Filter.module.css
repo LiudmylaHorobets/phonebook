@@ -1,0 +1,21 @@
+
+.wrapFilter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.titleFilter {
+    text-align: center;
+}
+.inputFilter {
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+  
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .inputFilter:focus {
+    border: 2px solid pink;
+    outline: 1px solid pink;
+  }
